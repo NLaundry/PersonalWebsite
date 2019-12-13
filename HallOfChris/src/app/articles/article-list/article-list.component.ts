@@ -19,7 +19,7 @@ export class ArticleListComponent implements OnInit {
       console.log(items);
       items.forEach(item => {
         console.log(item);
-        this.articles.push(new Article(item.Author, item.Title, item.Date.toDate(), item.Summary))
+        // this.articles.push(new Article(item.Author, item.Title, item.Date.toDate(), item.Summary))
       })
       //this.articles = items.concat(this.articles);
     });

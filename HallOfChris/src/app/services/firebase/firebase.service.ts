@@ -1,15 +1,13 @@
-import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Article } from '../../articles/article';
-
-@Injectable({
-  providedIn: 'root'
-})
+// import { Article } from '../../articles/article';
+//
+//@Injectable({
+//  providedIn: 'root'
+//})
 export class FirebaseService {
   constructor(private afs: AngularFirestore) { }
   /*readBlogPostsTest
    * returns a promise with all items from the blogpost collection
-   * 
    */
 
   readArticles() {
@@ -38,7 +36,7 @@ export class FirebaseService {
     });
   }
 
-  updateBlogPost(key, value){
+  updateBlogPost(key: any, value: any) {
     // value.nameToSearch = value.name.toLowerCase();
     return this.afs.collection('blog_post').doc(key).set(value);
   }
