@@ -23,7 +23,7 @@
                   </div>
                   <mat-card [class.mat-elevation-z16]="true" class="avatar_card">
                   </mat-card>
-                  <div fxHide.xs>
+                  <div fxHide.xs fxHide.sm>
                     <app-interest-cards></app-interest-cards>
                   </div>
                 </div>
@@ -35,13 +35,13 @@
         <app-interest-cards></app-interest-cards>
     </div>
     <mat-divider style="margin: 2vh;"></mat-divider>
-    <div style="margin: 2vh" fxLayout="row" fxLayout.xs="column" fxLayoutGap="3vh">
-      <div fxLayout="column" fxLayout.xs="row" fxFlex="50%" fxLayoutGap="2vh">
+    <div style="margin: 2vh" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap="3vh">
+      <div fxLayout="column" fxLayout.sm="row" ffxLayout.xs="row" fxFlex="50%" fxLayoutGap="2vh">
         <mat-card class="content-card">
           <mat-expansion-panel name="Gists in Angular">
               <mat-expansion-panel-header>
                 <mat-panel-title>
-                  <h5 fxHide.xs class="colour_secondary">I'm a sOfTWaRe DeVelOpeR</h5>
+                  <h5 fxHide.sm fxHide.xs class="colour_secondary">I'm a sOfTWaRe DeVelOpeR</h5>
                   <h6 fxHide.xl fxHide.lg fxHide.md class="colour_secondary">I'm a sOfTWaRe DeVelOpeR</h6>
                 </mat-panel-title>
               </mat-expansion-panel-header>
@@ -50,7 +50,7 @@
           <mat-expansion-panel name="Gists in Angular">
               <mat-expansion-panel-header>
                 <mat-panel-title>
-                  <h5 fxHide.xs class="colour_secondary">I'm like ... a musician and a poet sooooo</h5>
+                  <h5 fxHide.xs fxHide.sm class="colour_secondary">I'm like ... a musician and a poet sooooo</h5>
                   <h6 fxHide.xl fxHide.lg fxHide.md class="colour_secondary">I'm like ... a musician and a poet sooooo</h6>
                 </mat-panel-title>
               </mat-expansion-panel-header>
@@ -61,7 +61,7 @@
           <mat-expansion-panel name="Gists in Angular">
               <mat-expansion-panel-header>
                 <mat-panel-title>
-                  <h5 fxHide.xs class="colour_secondary">Stealth ... Giraffe???</h5>
+                  <h5 fxHide.xs fxHide.sm class="colour_secondary">Stealth ... Giraffe???</h5>
                   <h6 fxHide.xl fxHide.lg fxHide.md class="colour_secondary">Stealth ... Giraffe???</h6>
                 </mat-panel-title>
               </mat-expansion-panel-header>
