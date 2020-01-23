@@ -1,9 +1,6 @@
 import { AngularFirestore } from '@angular/fire/firestore';
 // import { Article } from '../../articles/article';
 //
-//@Injectable({
-//  providedIn: 'root'
-//})
 export class FirebaseService {
   constructor(private afs: AngularFirestore) { }
   /*readBlogPostsTest
