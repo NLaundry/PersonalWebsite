@@ -1,0 +1,9 @@
+@import '../../styles.scss';
+
+.elevated {
+    @include mat-elevation-transition;
+    @include mat-elevation(2);
+    &:hover {
+      @include mat-elevation(24);    
+    }
+}
